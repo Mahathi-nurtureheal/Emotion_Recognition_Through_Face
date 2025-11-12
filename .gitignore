@@ -1,0 +1,20 @@
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore system/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore generated output files
+emotion_output.avi
+valence_arousal_plot.png
+valence_arousal_timeline.png
+emotion_duration_log.csv
+stress_features.csv
